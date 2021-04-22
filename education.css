@@ -2,6 +2,7 @@ body{
     background-color: rgb(194, 228, 240);
 }
 
+
 div{
 text-align: center;
 border-radius: 15%;
@@ -23,11 +24,27 @@ background-color: beige;
 font-family: Playfair Display, 'Times New Roman', Times, serif; 
 }
 
+.h2{
+display: flex; 
+align-content: space-between;   
+}
+
+.p{
+text-align: center;    
+}
+
+h3{
+text-size-adjust: 16px;
+text-align: center    
+}
+
+h4{
+text-align: center; 
+text-size-adjust: 16px;
+
+}
 
 
-/* Responsive Media Coding Section */
-/* @media (min-width: ;)
-still working on this...
 
 
 
@@ -35,10 +52,12 @@ still working on this...
 
 
 
-*/
 
 
 
 
-/* <a href="" */
 
+
+
+
+ 

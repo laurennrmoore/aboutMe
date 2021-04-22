@@ -5,3 +5,54 @@ font-family: Lucida, Georgia;
 body{
     background-color: burlywood;
 }
+
+
+
+h1{
+background-color: bisque;
+text-align: center;
+
+}
+
+h2{
+background-color:  bisque;
+text-align: left;
+}
+
+img{
+margin: auto;
+display: block;
+width: 150px;
+
+   }
+
+
+
+@media (max-width:400px){
+   body{
+       background-color: black;
+   }
+   img{
+
+   display: none; 
+   }
+}
+
+@media (min-width: 750px){
+img{
+width: 450px;
+
+}
+}
+
+.demo-card-wide.mdl-card {
+    width: 512px;
+  }
+  .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('../bootstrapIntro/Images/zane-lee-KYhAYwhpQH4-unsplash.jpg') center / cover;
+  }
+  .demo-card-wide > .mdl-card__menu {
+    color: #fff;
+  }
